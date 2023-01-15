@@ -1,0 +1,142 @@
+@media screen and (max-width:992px) {
+   h3{
+    font-size: 1.2rem;
+   }
+   h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.8rem;
+}
+    .nav-toggle{
+        display: block;
+        margin-right:20px ;
+    }
+    /* .nav-links{
+        display: none;
+    } */
+    .example-card{
+        width: 48%;
+    
+    }
+    .example-area{
+        gap: 20px;
+    }
+    .testing_header{
+        padding:80px ;
+    }
+    .nav-links ul{
+        flex-direction: column;
+    }
+    .nav-links{
+        /* display: none; */
+        background-color: #fff;
+        width: 100%;
+        height: 100%;
+        top: 120px;
+        left: -100%;
+        position: absolute;
+
+    }
+    .nav-links.active{
+        left: 0;
+    }
+}
+
+@media screen and (max-width:750px) {
+    h3{
+        font-size: 1.1rem;
+       }
+       h1{
+        font-size: 1.8rem;
+    }
+    
+    h2{
+        font-size: 1.6rem;
+    }
+    .header-section {
+        flex-direction: column-reverse;
+    }
+    .header-left{
+        max-width: 100vw;
+        text-align: center;
+    }
+    .get-started-btn{
+        width: 100%;
+    }
+    .feature-card{
+        min-width: 45%;
+    }
+    .example-section-header{
+        padding: 40px;
+    }
+    .company-logo img {
+        width: 130px;
+    }
+}
+
+@media screen and (max-width:570px) {
+    h3{
+        font-size: 1.1rem;
+       }
+       h1{
+        font-size: 1.4rem;
+    }
+    
+    h2{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: 1rem;
+    }
+    .example-card {
+        /* width: 45%; */
+        height: 220px;
+    }
+    .example-area{
+        gap: 5px;
+        justify-content: space-evenly;
+    }
+    .testing_header {
+        padding: 35px 0px;
+    }
+    .big-feature-header{
+        flex-direction: column;
+        align-items: center;
+    }
+    #big-header{
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .hide {
+        display: none;
+    }
+}
+
+@media screen and (max-width:454px) {
+    :root{
+        --padding-inline-section:10px;
+    }
+    .logo{
+        /* width: 100px; */
+        height:30px ;
+     }
+     .secondary-btn{
+        padding: 7px 7px;
+     }
+     .small-bold-text{
+       font-size: 8px;
+     }
+     .feature-card {
+        min-width: 100%;
+    }
+    .sub-footer{
+        justify-content: space-evenly;
+        font-size: 12px;
+        gap: 0;
+    }
+    .sub-footer a{
+        padding: 10px 5px;
+    }
+}
